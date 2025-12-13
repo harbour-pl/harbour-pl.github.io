@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Justyna</title>
+   <meta name="description" content="Justyna — terminal-style wizytówka i kontakt.">
+   <link rel="icon" href="assets/img/harbour.svg" type="image/svg+xml">
+   <link rel="stylesheet" href="assets/css/style.css?v=1">
+</head>
+
+<body>
+   <div class="page-wrapper">
+      <div class="content-row u-flex-center-top">
+         <div class="content-column u-flex-center">
+            <div class="panel profile-card panel-shadow u-flex-column-center">
+               <div class="profile-photo u-flex-center panel-shadow">
+                  <img src="assets/img/harbour.svg" alt="Logo Harbour">
+               </div>
+               <div class="profile-header">
+                  <h2 class="profile-name">Justyna</h2>
+               </div>
+            </div>
+         </div>
+         <div class="content-column terminal-column u-flex-center">
+            <div class="panel-terminal terminal-shell panel-shadow">
+               <div class="window-bar">
+                  <div class="window-controls u-flex-left-center" aria-hidden="true">
+                     <div class="control-close"></div>
+                     <div class="control-minimize"></div>
+                     <div class="control-maximize"></div>
+                  </div>
+                  <div class="window-title">Graphical Terminal Console</div>
+               </div>
+               <div class="terminal-body" data-focus-proxy>
+                  <div class="terminal-log" id="terminalOutput"></div>
+                  <div class="terminal-line">
+                     <span class="token-user">harbour</span><span class="token-separator">@</span><span class="token-host">harbour</span><span class="token-colon">:</span><span class="token-path">~</span><span class="token-prompt">$</span> <span class="user-input"
+                        id="userInput"></span>
+                     <input type="text" id="terminalInput" class="input-proxy" autocomplete="off" autocapitalize="off" spellcheck="false">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
+
+</html>
