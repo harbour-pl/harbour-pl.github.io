@@ -17,6 +17,8 @@
 :root {
    --bc:             #efeeee;
    --font-family-monospace: 'JetBrains Mono', monospace;
+   --red:            #da2c4d;
+   --white:          #ffffff;
    --terminal-bg:    #300a24;
    --terminal-fg:    #f2f2f2;
    --terminal-user:  #13a10e;
@@ -77,6 +79,9 @@ body {
 .content-row {
    width: 100%;
    max-width: 900px;
+   display: flex;
+   align-items: flex-start;
+   justify-content: center;
    gap: 2em;
 }
 
@@ -112,7 +117,7 @@ body {
 
 .profile-card {
    width: 250px;
-   min-height: 35vh;
+   min-height: clamp(260px, 35vh, 420px);
    position: relative;
    text-align: center;
 }
@@ -211,16 +216,19 @@ body {
    flex: 1;
    display: flex;
    flex-direction: column;
+   overflow-y: auto;
 }
 
 .terminal-log {
    max-width: 100%;
+   flex: 1;
    padding: 0;
 }
 
 .terminal-line {
    color: var(--terminal-fg);
    padding: 0.1em 0.30em;
+    margin-top: auto;
 }
 
 .line-spacer {
