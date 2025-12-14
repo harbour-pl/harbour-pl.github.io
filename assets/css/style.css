@@ -228,7 +228,7 @@ body {
 .terminal-line {
    color: var(--terminal-fg);
    padding: 0.1em 0.30em;
-    margin-top: auto;
+   margin-top: auto;
 }
 
 .line-spacer {
