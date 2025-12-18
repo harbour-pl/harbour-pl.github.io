@@ -5,7 +5,7 @@
         <style><![CDATA[
             @font-face {
                 font-family: 'JetBrainsMono';
-                src: url('/fonts/JetBrainsMono-ExtraBold.woff2') format('woff2');
+                src: url('fonts/JetBrainsMono-ExtraBold.woff2') format('woff2');
                 font-weight: 800;
                 font-style: normal;
             }
