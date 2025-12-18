@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 512 512">
+    <defs>
+        <style><![CDATA[
+            @font-face {
+                font-family: 'JetBrainsMono';
+                src: url('/fonts/JetBrainsMono-ExtraBold.woff2') format('woff2');
+                font-weight: 800;
+                font-style: normal;
+            }
+        ]]></style>
+    </defs>
+    <circle cx="256" cy="256" r="256" fill="#B046C2"/>
+    <line x1="42" y1="131" x2="470" y2="131" style="stroke-width:30; stroke:#2A2B2C"/>
+    <rect x="25" y="146" width="462" height="180" fill="#e7e7e7"/>
+    <line x1="25" y1="326" x2="487" y2="326" style="stroke-width:30; stroke:#2A2B2C"/>
+    <circle cx="256" cy="256" r="241" stroke-width="30" stroke="#2B2A29" fill="none"/>
+    <!-- Harbour -->
+    <text
+        x="256"
+        y="276"
+        text-anchor="middle"
+        font-family="JetBrainsMono"
+        font-size="100"
+        font-weight="800"
+        fill="#2B2A29"
+        >Harbour
+    </text>
+</svg>
