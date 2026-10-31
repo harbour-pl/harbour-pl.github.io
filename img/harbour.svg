@@ -15,7 +15,7 @@
     <rect x="25" y="146" width="462" height="180" fill="#e7e7e7"/>
     <line x1="25" y1="326" x2="487" y2="326" style="stroke-width:30; stroke:#2A2B2C"/>
     <circle cx="256" cy="256" r="241" stroke-width="30" stroke="#2B2A29" fill="none"/>
-    <!-- Harbour -->
+    <!-- xDev -->
     <text
         x="256"
         y="276"
@@ -23,6 +23,6 @@
         font-family="JetBrainsMono"
         font-size="100"
         fill="#2B2A29"
-        >Harbour
+        >xDev
     </text>
 </svg>
